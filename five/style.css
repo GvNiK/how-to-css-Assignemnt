@@ -8,37 +8,34 @@ body{
         display: flex;
         gap: 40px;
     }
-    
     .feed{
         width: 560px;
         border: 1px solid lightgray;
-        padding: 10px;
         border-radius: 14px;
+        padding: 10px;
         margin-bottom: 24px;
-        transition: .25s;
-    
     }
     .feed-img{
         width: 100%;
         border-radius: 14px;
         transition: .25s;
     }
-    .sidebar{
-    
+    .profile{
+        display: flex;
+        margin-bottom: 14px;
+        gap: 8px;
+        align-items: center;
     }
-    
     .user{
-        width: 54px;
-        height: 54px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         object-fit: cover;
         transition: .25s;
     }
-    .profile{
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        margin-bottom: 24px;
+    .username{
+        font-size: 14px;
+        color: rgb(102, 102, 102);
     }
     .bi{
         font-size: 24px;
@@ -51,38 +48,139 @@ body{
         display: flex;
         gap: 16px;
     }
+    .sidebar-title{
+        margin-top: 0;
+    }
     .links{
         display: flex;
         gap: 8px;
     }
     .link{
-        height: 40px;
-    }
-    .sidebar-title{
-        margin-top: 0;
-        transition: .25s;
+        height: 38px;
     }
     .story-container{
+        display: flex;
         width: 990px;
         margin: 60px auto;
-        display: flex;
         gap: 16px;
+    }
+    .story{
+        text-align: center;
     }
     .story-img{
         height: 90px;
         width: 90px;
-        border-radius: 50%;
         object-fit: cover;
+        border-radius: 50%;
         transition: .25s;
-    }
-    .story{
-        text-align: center;
     }
     .name{
         font-size: 14px;
     }
     .navbar{
         width: 990px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        height: 32px;
+    }
+    .btn{
+        background-color: #fff;
+        border-radius: 8px;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: 1px solid lightgray;
+    }
+}
+
+/* small screens */
+@media(max-width:989px){
+    .container{
+        
+        margin: 60px auto;
+       
+    }
+    .feed{
+      
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 24px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+        transition: .25s;
+    }
+    .profile{
+        display: flex;
+        margin-bottom: 14px;
+        gap: 8px;
+        align-items: center;
+    }
+    .user{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .username{
+        font-size: 14px;
+        color: rgb(102, 102, 102);
+    }
+    .bi{
+        font-size: 24px;
+    }
+    .reactions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .reactions-left{
+        display: flex;
+        gap: 16px;
+    }
+    .sidebar-title{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .sidebar{
+        text-align: center;
+    }
+    .links{
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+    .link{
+        height: 38px;
+    }
+    .story-container{
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        margin: 60px auto;
+        gap: 12px;
+    }
+    .story-container::-webkit-scrollbar{
+        display: none;
+    }
+    .story{
+        text-align: center;
+    }
+    .story-img{
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: .25s;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .navbar{
         margin: 10px auto;
         display: flex;
         justify-content: space-between;
@@ -93,129 +191,11 @@ body{
         height: 32px;
     }
     .btn{
-        border: 1px solid lightgray;
-        padding: 12px 22px;
-        font-size: 15px;
-        background-color: white;
+        background-color: #fff;
         border-radius: 8px;
-        transition: .25s;
-    }
-}
-
-/* small screen css */
-
-
-@media(max-width: 989px){
-    .container{
-        
-        margin: 60px auto;
-       
-       
-    }
-    
-    .feed{
-       
-        border: 1px solid rgb(236, 236, 236);
-        padding: 10px;
-        border-radius: 14px;
-        margin-bottom: 24px;
-    
-    }
-    .feed-img{
-        width: 100%;
-        border-radius: 14px;
-        transition: .25s;
-    }
-    .sidebar{
-    
-    }
-    
-    .user{
-        width: 54px;
-        height: 54px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    .username{
         font-size: 14px;
-    }
-    .profile{
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        margin-bottom: 24px;
-    }
-    .bi{
-        font-size: 22px;
-    }
-    .reactions{
-        display: flex;
-        justify-content: space-between;
-    }
-    .reactions-left{
-        display: flex;
-        gap: 16px;
-    }
-    .links{
-        display: flex;
-        gap: 8px;
-        justify-content: center;
-    }
-    .link{
-        height: 40px;
-    }
-    .sidebar{
-        text-align: center;
-        transition: .25s;
-    }
-    .sidebar-title{
-        margin-top: 0;
-        font-size: 20px;
-    }
-    .story-container{
-        width: 100%;
-        margin: 60px auto;
-        display: flex;
-        gap: 16px;
-        overflow-x: auto;
-        transition: .25s;
-    }
-    .story-container::-webkit-scrollbar{
-        display: none;
-    }
-    .story-img{
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-        transition: .25s;
-    }
-    .story{
-        text-align: center;
-    }
-    .name{
-        font-size: 14px;
-    }
-    .navbar{
-        margin: 10px auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .logo{
-        height: 28px;
-    }
-    .btn{
-        border: 1px solid lightgray;
         padding: 8px 16px;
-        font-size: 14px;
-        background-color: white;
-        border-radius: 6px;
+        border: 1px solid lightgray;
+        transition: .25s;
     }
 }
-/* 
-    sm => 586px
-    md => 786px
-    laptops => 990px
-    bigger screens  => 1200px and above
-*/

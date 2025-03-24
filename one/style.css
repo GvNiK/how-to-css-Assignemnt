@@ -1,24 +1,24 @@
 /* h1{} => selector */
+/* . is used to represent a class name */
 body{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.heading{
+.title{
     color: red;
 }
 .center{
     text-align: center;
 }
+/* div=> 
+    1. to structure your code
+    2. to apply the css to all inner elements in one shot
 
-/* 
-    div => to structure the code
-           to apply the css to all inner elements in one shot
 */
-/* box model
+/* box model => 
     border => thickness, style, color
     padding => space inside the border
-    margin => 
+    margin => space outside the border
 */
-
 .box{
     border: 1px solid lightgray;
     width: 300px;
@@ -30,47 +30,49 @@ body{
     width: 100%;
     border-radius: 14px;
 }
-
 .bg{
+    width: 640px;
+    margin: 80px auto;
     background-color: orangered;
-    width: 670px;
-    margin: 60px auto;
     color: white;
-    padding: 120px 40px;
+    padding:120px 40px;
     border-radius: 24px;
 }
-.btn-white{
+.btn{
     background-color: white;
     border: none;
-    padding: 16px 30px;
+    padding: 16px 30px ;
     font-size: 16px;
     border-radius: 80px;
 }
+
 .login{
     width: 340px;
-    margin: 150px auto;
+    margin: 160px auto;
     text-align: center;
 }
 .input{
     width: 100%;
     margin-bottom: 10px;
     padding: 12px;
-    box-sizing: border-box;
     font-size: 16px;
-    border-radius: 0;
     border: 1px solid gray;
+    border-radius: 0;
+    box-sizing: border-box;
 }
-.btn{
+
+/*  box-sizing: border-box ise used to ensure that the content is not going out
+of the parent element because of padding */
+
+.login-btn{
+    width: 100%;
     background-color: black;
     color: white;
     padding: 13px;
-    width: 100%;
-    font-size: 16px;
     border: none;
+    box-sizing: border-box;
+    font-size: 16px;
 }
-
-/* box-sizing: border-box; ensures that the conent is not going out of the parentn
-elememt because of padding */
 .logo{
     height: 40px;
 }

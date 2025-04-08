@@ -1,29 +1,30 @@
-/* h1{} => selector */
-/* class name always starts with a dot */
+/* . is used to represent the classnames in css */
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.xyz{
+
+.abc{
     color: red;
 }
 .center{
     text-align: center;
 }
 
-/* div => Structure the code
-    to apply css to all inner elements in one shot
+/* 
+    1. to structure the code
+    2. to apply the css to all inner elements in one shot
 */
 /* box model
     border => thickness, style, color
     padding => space inside the border
-    margin => space outside the border
+    margin  => space outside the border
 */
 
 .box{
     border: 1px solid lightgray;
     width: 300px;
     padding: 10px;
-    margin: 70px auto;
+    margin: 80px auto;
     border-radius: 14px;
 }
 .box-img{
@@ -34,10 +35,10 @@ body{
 .bg{
     background-color: orangered;
     width: 670px;
-    margin: 70px auto;
+    margin: 60px auto;
     color: white;
-    padding:120px 40px;
-    border-radius: 36px;
+    padding: 120px 40px;
+    border-radius: 32px;
 }
 .btn{
     background-color: white;
@@ -46,11 +47,9 @@ body{
     font-size: 16px;
     border-radius: 80px;
 }
-
-
 .login{
     width: 340px;
-    margin: 180px auto;
+    margin:160px auto;
     text-align: center;
 }
 .input{
@@ -59,24 +58,21 @@ body{
     padding: 12px;
     font-size: 16px;
     border: 1px solid gray;
-    border-radius: 0;
     box-sizing: border-box;
-
 }
 .login-btn{
     background-color: black;
-    padding: 13px;
-    border: none;
-    width: 100%;
-    box-sizing: border-box;
     color: white;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 13px;
     font-size: 16px;
 }
 
-
-/*  box-sizing: border-box ensured that the content is not going out of the parent
+/* box-sizing: border-box ensures that the conent is not going out of the paret 
 element if going out because of padding */
 
 .logo{
-    height: 46px;
+    height: 40px;
 }

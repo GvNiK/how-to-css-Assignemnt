@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c809e15-4a0f-42a7-9531-b509a78948b9" name="Changes" comment="" />
+    <list default="true" id="8c809e15-4a0f-42a7-9531-b509a78948b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.how-to-css-Assignemnt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.how-to-css-Assignemnt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/BoxModel.css" beforeDir="false" afterPath="$PROJECT_DIR$/one/BoxModel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/BoxModelStyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/one/BoxModelStyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/one/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +49,8 @@
       <updated>1749552606001</updated>
       <workItem from="1749552625212" duration="4017000" />
       <workItem from="1749635451711" duration="4768000" />
+      <workItem from="1749651886412" duration="429000" />
+      <workItem from="1749740599070" duration="4241000" />
     </task>
     <servers />
   </component>

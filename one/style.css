@@ -51,9 +51,10 @@ body{
     border-radius: 80px;
 }
 .login{
-    width: 344px;
+    width: 500px;
     margin: 160px auto;
     text-align: center;
+    border: 3px solid gray;
 }
 .input{
     width: 100%;
